@@ -1,0 +1,29 @@
+#dropdownMenu2,#btnVoltar{
+background-color: rgb(17, 153, 17);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+#btnVoltar{
+    width: 70px;
+}
+
+
+#board-extrato{
+    background-color: rgb(79, 180, 79);
+    width: 100%;
+    display: block;
+}
+
+.donut-extrato,#donut-chart{
+    font-display: auto;
+    background-color: rgb(107, 168, 107);
+    font-size: 50px;
+    
+}
+#board-grafico{
+    width: 80%;
+    display: block;
+}

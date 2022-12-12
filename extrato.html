@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Extrato - Green Finance</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <script type="text/javascript" src="/js/validacaoJs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.css" />
+    <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="/js/extratoAnalitico.js"></script>
+    <link rel="stylesheet" href="/css/extrato.css">
+
+</head>
+
+
+<body>
+    <br />
+    <br />
+    <main class="row">
+        <div class="col-12">
+            <h1>Green Finance</h1>
+            <h3>Rotina em desenvolvimento</h3>
+        </div>
+    </main>
+    <br />
+    <div class="col-12 board">
+        <br />
+        <input type="submit" name="btnVoltar" id="btnVoltar" value="Voltar" />
+        <div class="col-12 board" id="board-extrato">
+            <h1>Extrato Sintético</h1>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mês
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><button class="dropdown-item" type="button" value="1">Janeiro</button></li>
+                <li><button class="dropdown-item" type="button" value="2">Fevereiro</button></li>
+                <li><button class="dropdown-item" type="button" value="3">Março</button></li>
+                <li><button class="dropdown-item" type="button" value="4">Abril</button></li>
+                <li><button class="dropdown-item" type="button" value="5">Maio</button></li>
+                <li><button class="dropdown-item" type="button" value="6">Junho</button></li>
+                <li><button class="dropdown-item" type="button" value="7">Julho</button></li>
+                <li><button class="dropdown-item" type="button" value="8">Agosto</button></li>
+                <li><button class="dropdown-item" type="button" value="9">Setembro</button></li>
+                <li><button class="dropdown-item" type="button" value="10">Outubro</button></li>
+                <li><button class="dropdown-item" type="button" value="11">Novembro</button></li>
+                <li><button class="dropdown-item" type="button" value="12">Dezembro</button></li>
+            </ul>
+        </div>
+        <div class="col-12 board" id="board-grafico">
+            <div id="donut-chart" class="donut-extrato">
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+    </div>
+
+
+</body>
+
+</html>

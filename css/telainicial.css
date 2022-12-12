@@ -1,0 +1,91 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.opcoes{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: auto;
+}
+
+.opcoes li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.opcoes li:hover{
+   border-color: #C78C19;
+}
+
+.opcoes li:hover h2{
+    font-size: 34px;
+}
+
+.opcoes li:active{
+   border-color: #088C19;
+}
+
+.opcoes h2{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+.opcoes p{
+    color: white;
+
+}
+
+.opcoes-descricao{
+    font-size: 18px;
+}
+
+.opcoes-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tela-inicial{
+    height: 70px;
+}
+
+#btnSair{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 15px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgb(78, 173, 54);
+}
+
+#btnSair:hover{
+   border-color: #C78C19;
+}
+
+#btnSair:hover{
+    font-size: 34px;
+    width: 150;
+}
+
+#btnSair:active{
+   border-color: #088C19;
+}
+
+
+
+
